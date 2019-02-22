@@ -107,7 +107,6 @@ ul {
 
 .lt_main {
   height: 2000px;
-  background-color: pink;
   padding-left: 180px;
   padding-top: 50px;
   transition: all 1s;
@@ -140,3 +139,9 @@ ul {
 .lt_main .breadcrumb a {
   color: #337AB7;
 }
+
+.lt_main .echarts_left, 
+.lt_main .echarts_right {
+  width: 48%;
+  height: 400px;
+} 
